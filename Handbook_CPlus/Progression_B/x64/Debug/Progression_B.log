@@ -1,0 +1,10 @@
+﻿  Source.cpp
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(25,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(26,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(27,16): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(29,9): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(40,18): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(41,18): warning C4244: +=: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(42,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+D:\VS\progs\H_Book\Handbook_CPlus\Progression_B\Source.cpp(44,10): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+  Progression_B.vcxproj -> D:\VS\progs\H_Book\Handbook_CPlus\x64\Debug\Progression_B.exe

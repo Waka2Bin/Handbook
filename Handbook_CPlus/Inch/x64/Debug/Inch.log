@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\VS\progs\H_Book\Handbook_CPlus\Inch\Source.cpp(6,11): warning C4101: b: неиспользованная локальная переменная
+  Inch.vcxproj -> D:\VS\progs\H_Book\Handbook_CPlus\x64\Debug\Inch.exe
