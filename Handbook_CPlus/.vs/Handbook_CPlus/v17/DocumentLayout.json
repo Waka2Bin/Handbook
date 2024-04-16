@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{714A17E9-FEFF-443F-9B42-97F24909456C}|2-7-B_Prefix\\2-7-B_Prefix.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{714A17E9-FEFF-443F-9B42-97F24909456C}|2-7-B_Prefix\\2-7-B_Prefix.vcxproj|solutionrelative:2-7-B_Prefix\\Prefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prefix.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp",
+              "RelativeDocumentMoniker": "2-7-B_Prefix\\Prefix.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp",
+              "RelativeToolTip": "2-7-B_Prefix\\Prefix.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-16T11:32:31.203Z",
+              "EditorCaption": ""
             }
           ]
         }

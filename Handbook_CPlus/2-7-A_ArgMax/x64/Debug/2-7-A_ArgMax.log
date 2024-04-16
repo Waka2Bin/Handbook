@@ -1,0 +1,22 @@
+﻿  ArgMax.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4267: инициализация: преобразование из "size_t" в "_Ty1"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4267:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16): warning C4267:         ]
+  (компиляция исходного файла "ArgMax.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,16):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\VS\progs\Handbook\Handbook_CPlus\2-7-A_ArgMax\ArgMax.cpp(18,22):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<size_t,size_t,0>(std::pair<size_t,size_t> &&) noexcept"
+  		D:\VS\progs\Handbook\Handbook_CPlus\2-7-A_ArgMax\ArgMax.cpp(18,22):
+  		см. первую ссылку на "std::pair<int,int>::pair" в "main"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,61): warning C4267: инициализация: преобразование из "size_t" в "_Ty2"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,61): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,61): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,61): warning C4267:             _Ty2=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(278,61): warning C4267:         ]
+  (компиляция исходного файла "ArgMax.cpp")
+  
+  2-7-A_ArgMax.vcxproj -> D:\VS\progs\Handbook\Handbook_CPlus\x64\Debug\2-7-A_ArgMax.exe

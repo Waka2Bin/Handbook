@@ -1,3 +1,4 @@
-﻿  Replace.cpp
-D:\VS\progs\Handbook\Handbook_CPlus\2-4-C_Replace\Replace.cpp(10,2): warning C4552: "~": результат выражения не используется
+﻿D:\VS\progs\Handbook\Handbook_CPlus\2-4-C_Replace\2-4-C_Replace.vcxproj(73,3): warning MSB4011: невозможно повторно импортировать "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.props". Он уже был импортирован в "D:\VS\progs\Handbook\Handbook_CPlus\2-4-C_Replace\2-4-C_Replace.vcxproj (55,3)". Скорее всего это связано с ошибкой при написании кода сборки. Повторный импорт будет пропущен. 
+D:\VS\progs\Handbook\Handbook_CPlus\2-4-C_Replace\2-4-C_Replace.vcxproj(154,3): warning MSB4011: невозможно повторно импортировать "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.targets". Он уже был импортирован в "D:\VS\progs\Handbook\Handbook_CPlus\2-4-C_Replace\2-4-C_Replace.vcxproj (148,3)". Скорее всего это связано с ошибкой при написании кода сборки. Повторный импорт будет пропущен. 
+  Replace.cpp
   2-4-C_Replace.vcxproj -> D:\VS\progs\Handbook\Handbook_CPlus\x64\Debug\2-4-C_Replace.exe
