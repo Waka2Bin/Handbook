@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{714A17E9-FEFF-443F-9B42-97F24909456C}|2-7-B_Prefix\\2-7-B_Prefix.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{714A17E9-FEFF-443F-9B42-97F24909456C}|2-7-B_Prefix\\2-7-B_Prefix.vcxproj|solutionrelative:2-7-B_Prefix\\Prefix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2C256B30-F234-494F-B24A-162E9F0B834A}|2-7-F_SortPoint\\2-7-F_SortPoint.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2C256B30-F234-494F-B24A-162E9F0B834A}|2-7-F_SortPoint\\2-7-F_SortPoint.vcxproj|solutionrelative:2-7-F_SortPoint\\SortPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30136032-E911-4FC3-ACF8-49D78E4927CC}|2-7-D_Join\\2-7-D_Join.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30136032-E911-4FC3-ACF8-49D78E4927CC}|2-7-D_Join\\2-7-D_Join.vcxproj|solutionrelative:2-7-D_Join\\Join.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Prefix.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp",
-              "RelativeDocumentMoniker": "2-7-B_Prefix\\Prefix.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-B_Prefix\\Prefix.cpp",
-              "RelativeToolTip": "2-7-B_Prefix\\Prefix.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "SortPoint.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp",
+              "RelativeDocumentMoniker": "2-7-F_SortPoint\\SortPoint.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp",
+              "RelativeToolTip": "2-7-F_SortPoint\\SortPoint.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-16T11:32:31.203Z",
+              "WhenOpened": "2024-04-17T12:15:48.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Join.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp",
+              "RelativeDocumentMoniker": "2-7-D_Join\\Join.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp",
+              "RelativeToolTip": "2-7-D_Join\\Join.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-17T12:13:27.153Z",
               "EditorCaption": ""
             }
           ]

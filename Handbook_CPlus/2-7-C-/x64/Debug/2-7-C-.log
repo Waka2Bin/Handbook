@@ -1,0 +1,3 @@
+﻿  Split.cpp
+D:\VS\progs\Handbook\Handbook_CPlus\2-7-C-\Split.cpp(21,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  2-7-C-.vcxproj -> D:\VS\progs\Handbook\Handbook_CPlus\x64\Debug\2-7-C_Split.exe

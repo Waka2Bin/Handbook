@@ -1,4 +1,4 @@
 ﻿  Prefix.cpp
-D:\PROJECTS\Handbook\Handbook_CPlus\2-7-B_Prefix\Prefix.cpp(18,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\PROJECTS\Handbook\Handbook_CPlus\2-7-B_Prefix\Prefix.cpp(26,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  2-7-B_Prefix.vcxproj -> D:\PROJECTS\Handbook\Handbook_CPlus\x64\Debug\2-7-B_Prefix.exe
+D:\VS\progs\Handbook\Handbook_CPlus\2-7-B_Prefix\Prefix.cpp(16,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\VS\progs\Handbook\Handbook_CPlus\2-7-B_Prefix\Prefix.cpp(24,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  2-7-B_Prefix.vcxproj -> D:\VS\progs\Handbook\Handbook_CPlus\x64\Debug\2-7-B_Prefix.exe
