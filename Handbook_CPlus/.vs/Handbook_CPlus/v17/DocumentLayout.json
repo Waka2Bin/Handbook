@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C256B30-F234-494F-B24A-162E9F0B834A}|2-7-F_SortPoint\\2-7-F_SortPoint.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C256B30-F234-494F-B24A-162E9F0B834A}|2-7-F_SortPoint\\2-7-F_SortPoint.vcxproj|solutionrelative:2-7-F_SortPoint\\SortPoint.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30136032-E911-4FC3-ACF8-49D78E4927CC}|2-7-D_Join\\2-7-D_Join.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30136032-E911-4FC3-ACF8-49D78E4927CC}|2-7-D_Join\\2-7-D_Join.vcxproj|solutionrelative:2-7-D_Join\\Join.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24D1F054-78A0-449C-ACFF-37544615EE9E}|3-1-B_ChekWorker\\3-1-B_ChekWorker.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24D1F054-78A0-449C-ACFF-37544615EE9E}|3-1-B_ChekWorker\\3-1-B_ChekWorker.vcxproj|solutionrelative:3-1-B_ChekWorker\\ChekWorker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SortPoint.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp",
-              "RelativeDocumentMoniker": "2-7-F_SortPoint\\SortPoint.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-F_SortPoint\\SortPoint.cpp",
-              "RelativeToolTip": "2-7-F_SortPoint\\SortPoint.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Title": "ChekWorker.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp",
+              "RelativeDocumentMoniker": "3-1-B_ChekWorker\\ChekWorker.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp",
+              "RelativeToolTip": "3-1-B_ChekWorker\\ChekWorker.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T12:15:48.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Join.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp",
-              "RelativeDocumentMoniker": "2-7-D_Join\\Join.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\2-7-D_Join\\Join.cpp",
-              "RelativeToolTip": "2-7-D_Join\\Join.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T12:13:27.153Z",
+              "WhenOpened": "2024-04-18T10:56:31.484Z",
               "EditorCaption": ""
             }
           ]
