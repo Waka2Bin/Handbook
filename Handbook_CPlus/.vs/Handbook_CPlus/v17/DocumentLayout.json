@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24D1F054-78A0-449C-ACFF-37544615EE9E}|3-1-B_ChekWorker\\3-1-B_ChekWorker.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24D1F054-78A0-449C-ACFF-37544615EE9E}|3-1-B_ChekWorker\\3-1-B_ChekWorker.vcxproj|solutionrelative:3-1-B_ChekWorker\\ChekWorker.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{B93ED2CA-32A9-46F4-A6BB-C7D3ECC977E9}|3-1-D_Redactor\\3-1-D_Redactor.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-D_Redactor\\Redactor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B93ED2CA-32A9-46F4-A6BB-C7D3ECC977E9}|3-1-D_Redactor\\3-1-D_Redactor.vcxproj|solutionrelative:3-1-D_Redactor\\Redactor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{760AB3A3-47DE-4156-ADD8-F4E40ED17538}|3-1-C_Cars\\3-1-C_Cars.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-C_Cars\\Cars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{760AB3A3-47DE-4156-ADD8-F4E40ED17538}|3-1-C_Cars\\3-1-C_Cars.vcxproj|solutionrelative:3-1-C_Cars\\Cars.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cars.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-C_Cars\\Cars.cpp",
+              "RelativeDocumentMoniker": "3-1-C_Cars\\Cars.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-C_Cars\\Cars.cpp",
+              "RelativeToolTip": "3-1-C_Cars\\Cars.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T11:23:05.879Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -23,14 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChekWorker.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp",
-              "RelativeDocumentMoniker": "3-1-B_ChekWorker\\ChekWorker.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-B_ChekWorker\\ChekWorker.cpp",
-              "RelativeToolTip": "3-1-B_ChekWorker\\ChekWorker.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Title": "Redactor.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-D_Redactor\\Redactor.cpp",
+              "RelativeDocumentMoniker": "3-1-D_Redactor\\Redactor.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-1-D_Redactor\\Redactor.cpp",
+              "RelativeToolTip": "3-1-D_Redactor\\Redactor.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-18T10:56:31.484Z",
+              "WhenOpened": "2024-04-19T11:17:52.626Z",
               "EditorCaption": ""
             }
           ]
