@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|solutionrelative:3-2-B_UniteSymbols\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|solutionrelative:3-2-B_UniteSymbols\\UniteSymbols.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\Source.cpp",
-              "RelativeDocumentMoniker": "3-2-B_UniteSymbols\\Source.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\Source.cpp",
-              "RelativeToolTip": "3-2-B_UniteSymbols\\Source.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UniteSymbols.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp",
+              "RelativeDocumentMoniker": "3-2-B_UniteSymbols\\UniteSymbols.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp",
+              "RelativeToolTip": "3-2-B_UniteSymbols\\UniteSymbols.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-23T11:54:42.538Z",
               "EditorCaption": ""
