@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9E248E83-E941-4C93-BAFF-BE6529332DFD}|3-2-B_UniteSymbols\\3-2-B_UniteSymbols.vcxproj|solutionrelative:3-2-B_UniteSymbols\\UniteSymbols.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24E47E8D-C433-47E4-933C-CDD13A78F746}|3-2-C_FileSystem\\3-2-C_FileSystem.vcxproj|D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-C_FileSystem\\FileSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24E47E8D-C433-47E4-933C-CDD13A78F746}|3-2-C_FileSystem\\3-2-C_FileSystem.vcxproj|solutionrelative:3-2-C_FileSystem\\FileSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +14,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UniteSymbols.cpp",
-              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp",
-              "RelativeDocumentMoniker": "3-2-B_UniteSymbols\\UniteSymbols.cpp",
-              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-B_UniteSymbols\\UniteSymbols.cpp",
-              "RelativeToolTip": "3-2-B_UniteSymbols\\UniteSymbols.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAEAAAA",
+              "Title": "FileSystem.cpp",
+              "DocumentMoniker": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-C_FileSystem\\FileSystem.cpp",
+              "RelativeDocumentMoniker": "3-2-C_FileSystem\\FileSystem.cpp",
+              "ToolTip": "D:\\VS\\progs\\Handbook\\Handbook_CPlus\\3-2-C_FileSystem\\FileSystem.cpp*",
+              "RelativeToolTip": "3-2-C_FileSystem\\FileSystem.cpp*",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-23T11:54:42.538Z",
+              "WhenOpened": "2024-04-24T13:13:38.147Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

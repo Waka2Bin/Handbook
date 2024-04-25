@@ -1,33 +1,29 @@
 #include <string>
-#include <map>
+#include <set>
 #include <fstream>
-#include <vector>
 
 using namespace std;
 
 int main() {
 	ifstream in("input.txt");
 	ofstream out("output.txt");
-	string t,val,key;
-	int cntr = 0;
-	map<string,map<string,int>> data;
-	
+	string t;
+	set<string> data;
 	while (!in.eof()) {
 		getline(in,t);
-		for (auto& i : t) {
-			if (i == '\n') break;
-			++cntr;
-			while (i!='/') {
-				val += i;
-			}
-			if (cntr == 1 && data.count(val) && val != "") {
-				key = val;
-			}
-			else if () {
-
-			}
-		}
+		int tf = t.size()-1;
 		
-
+		while (t != "") {
+			while (t.back() != '/') {
+				t.erase(tf, 1);
+				tf = t.size() - 1;
+			}
+			if (!data.count(t)) data.insert(t);
+			tf = t.size() - 1;
+			t.erase(tf, 1);
+		}
+	}
+	for (auto& i : data) {
+		out << i << "\n";
 	}
 }
