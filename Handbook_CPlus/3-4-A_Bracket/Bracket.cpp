@@ -1,50 +1,50 @@
 #include <iostream>
 #include <string>
+#include <map>
 
 using namespace std;
+
+string getCheckBracket(char& a, string& b) {
+	map<char, char> lib{ {'(',')'}, {'{','}'}, {'[',']'} };
+	char val = lib[a];
+	int idx=0;
+	bool trgr = false;
+	int value = b.length();
+	for (int i = 0; i < value;++i) {
+		if (b[i] == val) {
+			idx = i;
+			trgr = true;
+			break;
+		}
+	}
+	if (trgr) {
+		b.erase(idx, 1);
+		b.erase(0,1);
+	}
+	else {
+		return "NO";
+	}
+	return b;
+}
 
 int main() {
 	string s;
 	getline(cin, s);
-
-	for (int i = 0; i < s.length(); i++) {
-		if (s[0] == '}' || s[0] == ']' || s[0] == ')') {
+	
+	while (s != "NO") {
+		char a = s[0];
+		s = getCheckBracket(a, s);
+		if (s.length() == 0) {
+			cout << "YES";
+			break;
+		}
+		else if (a == '}' || a == ']' || a == ')') {
 			cout << "NO";
 			break;
-		};
-
-		char a = s[0];
-		int j = 1;
-		if (a == '{') {
-			while (j < s.length()) {
-				if (s[j] == '}') {
-					s.erase(j, 1);
-					s.erase(0);
-					break;
-				}
-				j++;
-			}
 		}
-		else if (a == '[') {
-			while (j < s.length()) {
-				if (s[j] == ']') {
-					s.erase(j, 1);
-					s.erase(0);
-					break;
-				}
-				j++;
-			}
-		}
-		else if (a == '(') {
-			while (j < s.length()) {
-				if (s[j] == ')') {
-					s.erase(j, 1);
-					s.erase(0);
-					break;
-				}
-				j++;
-			}
+		else if (s == "NO") {
+			cout << "NO";
+			break;
 		}
 	}
-
 }
