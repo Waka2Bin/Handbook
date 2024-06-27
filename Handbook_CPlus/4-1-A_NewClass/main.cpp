@@ -3,10 +3,17 @@
 
 
 int main() {
-	tst::Date_tst one(1971,2,2);
-	int val = one.GetTotalDay();
-	std::cout << val<< std::endl;
+	tst::Date one(1970,1,5);
 	std::cout << one.GetYear() << " " << one.GetMonth() << " " << one.GetDay() << std::endl;
+
+	tst::Date _one(1960, 2, 2);
+	std::cout << _one.GetYear() << " " << _one.GetMonth() << " " << _one.GetDay() << std::endl;
+
+	_one += 2;
+	std::cout << _one.GetYear() << " " << _one.GetMonth() << " " << _one.GetDay() << std::endl;
+
+	int val = one - _one;
+	std::cout << val << "\n";
 
 	return 0;
 }

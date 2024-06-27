@@ -3,35 +3,50 @@
 
 namespace tst {
 
-	class Date_tst {
+	class Date {
 	private:
 		int year = 1970;
 		int month = 1;
 		int day = 1;
 		int absolut_days = 0;
 
-		void Normalize() {
+		bool ChekDate(int y, int m, int d) {
+			if (y>=1970 && y<=2099 && NumDays(y, m) >= d) {
+				return true;
+			}
+			else return false;
+		}
+		
+		void CalcAbsDays() {
+			this->absolut_days = 0;
 			for (int i = 1970; i < year; ++i) {
-				absolut_days += NumDays(i);
+				this->absolut_days += NumDays(i);
 			}
 			for (int i = 1; i < month; ++i) {
-				absolut_days += NumDays(year, i);
+				this->absolut_days += NumDays(year, i);
 			}
-			absolut_days += day;
+			this->absolut_days += day;
+		};
+		
+		void Normalize_absolute() {
+			int tmp_absolut_days(absolut_days);
+			
+			int& _year = this->year;
+			int& _month = this->month;
 
-			int& _year = year;
-			int& _month = month;
-			int tmp_absolut_days = absolut_days;
+			this->year = 1970;
+			this->month = 0;
+			this->day = 0;
 
-			while (tmp_absolut_days < NumDays(_year)) {
-				tmp_absolut_days -= NumDays(_year);
-				++year;
+			while (tmp_absolut_days > NumDays(_year)) {
+				tmp_absolut_days = tmp_absolut_days - NumDays(_year);
+				++this->year;
 			}
-			while (absolut_days < NumDays(_year, _month)) {
-				tmp_absolut_days -= NumDays(_year, _month);
-				++month;
+			while (absolut_days > NumDays(_year, _month)) {
+				tmp_absolut_days = tmp_absolut_days - NumDays(_year, _month);
+				++this->month;
 			}
-			day = tmp_absolut_days;
+			this->day = tmp_absolut_days;
 		};
 
 		bool TypeYear(int year) {
@@ -53,7 +68,6 @@ namespace tst {
 				{1,31}, {2,28}, {3,31}, {4,30}, {5,31}, {6,30},
 				{7,31}, {8,31}, {9,30}, {10,31}, {11,30}, {12,31}, {13,29},
 			};
-
 			if (TypeYear(year) && 2 == mnth) {
 				return yearTypeMap[13];
 			}
@@ -61,66 +75,53 @@ namespace tst {
 		}
 
 	public:
-		Date_tst() = default;
-		Date_tst(int y, int m, int d);
-		Date_tst(int a) : Date_tst(0, 0, a) {};
+		Date(int y, int m, int d);
 
 		int GetYear()const;
 		int GetMonth()const;
 		int GetDay()const;
 		int GetTotalDay() const;
 
-		Date_tst& operator += (int _day) {
-			day += _day;
-			Normalize();
+		Date& operator += (int _day) {
+			this->absolut_days += _day;
+			Normalize_absolute();
+			CalcAbsDays();
 			return *this;
 		}
 
-		Date_tst& operator -= (int _day) {
-			day -= _day;
-			Normalize();
+		Date& operator -= (int _day) {
+			this->absolut_days -= - _day;
+			Normalize_absolute();
+			CalcAbsDays();
 			return *this;
 		}
 
 	};
 
-	int operator - (const Date_tst& dt1, const Date_tst& dt2) {
+	int operator - (const Date& dt1, const Date& dt2) {
 		return dt1.GetTotalDay() - dt2.GetTotalDay();
 	}
-
-	Date_tst::Date_tst() {
-		year = 1970;
-		month = 1;
-		day = 1;
+	
+	Date::Date(int y, int m, int d) {
+		if (ChekDate(y, m, d)) { year = y; month = m; day = d; }
+		else { year = 1970; month = 1; day = 1; }
+		CalcAbsDays();
 	};
 
-	Date_tst::Date_tst(int y, int m, int d) {
-		if (y < 1970 || y > 2099 || m < 1 || m>12 || d < 1 || d>31) {
-			year = 1970;
-			month = 1;
-			day = 1;
-		}
-		else {
-			year = y;
-			month = m;
-			day = d;
-		}
-		Normalize();
-	};
-
-	int Date_tst::GetYear() const {
+	int Date::GetYear() const {
 		return year;
 	};
 
-	int Date_tst::GetMonth() const {
+	int Date::GetMonth() const {
 		return month;
 	};
 
-	int Date_tst::GetDay() const {
+	int Date::GetDay() const {
 		return day;
 	};
 
-	int Date_tst::GetTotalDay() const {
+	int Date::GetTotalDay() const {
 		return absolut_days;
 	};
+
 }
